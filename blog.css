@@ -1,0 +1,34 @@
+a: hover{
+    background-color: #0069d9;
+    }
+    #trabajo:target, #viajes:target {
+      display: block;
+    }
+    #trabajo, #viajes {
+      display: none;
+      padding: 20px;
+    }
+    input:user-invalid {
+      border: 2px solid red;
+      box-shadow: 0 0 2px red;
+      outline: red;
+    }
+    input[type="text"]:valid {
+      border: 2px solid green;
+      box-shadow: 0 0 2px green;
+      outline: green;
+    }
+    nav {
+      padding-top: 15px;
+      width: 100%;
+      text-align: center;
+    }
+    a {
+      font-family: sans-serif;
+      color: white;
+      background-color: #7c95b1;
+      padding: 7px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  

@@ -1,0 +1,41 @@
+.contenedor {
+    display: flex;
+    list-style: none;
+    margin: 1.2;
+    background: rgb(35, 33, 33);
+    padding: 0;
+  }
+  .contenedor li {
+    flex: 0 1 120px;
+  }
+  .contenedor li:first-child {
+  }
+  .contenedor a {
+    font: 14px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    color: white;
+    user-select: none;
+  }
+  .contenedor li:hover {
+    background: rgb(168, 177, 205);
+  }
+  
+  .submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    background: rgb(53, 57, 61);
+    position: absolute;
+    
+  }
+  .submenu > li:hover {
+    background: rgb(54, 56, 64);
+  }
+  .contenedor > li:hover > .submenu {
+    display: block;
+  }
+  
+  
