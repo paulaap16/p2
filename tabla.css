@@ -39,12 +39,12 @@
   }
 
   tr:nth-child(2n+1) > td {
-    background: #a08f8f;
+    background: #8a8a8a;
     text-align: center;
   }
 
   tr:nth-child(2n) > td {
-    background: #6d5454;
+    background: #473c3c;
     text-align: center;
   }
 
